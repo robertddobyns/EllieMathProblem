@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/EllieMathProblem/static/css/main.073c9b0a.css",
-    "main.js": "/EllieMathProblem/static/js/main.04e30033.js",
+    "main.css": "/EllieMathProblem/static/css/main.6a2cab3a.css",
+    "main.js": "/EllieMathProblem/static/js/main.b19390c9.js",
     "static/js/787.fa3fb03d.chunk.js": "/EllieMathProblem/static/js/787.fa3fb03d.chunk.js",
     "index.html": "/EllieMathProblem/index.html",
-    "main.073c9b0a.css.map": "/EllieMathProblem/static/css/main.073c9b0a.css.map",
-    "main.04e30033.js.map": "/EllieMathProblem/static/js/main.04e30033.js.map",
+    "main.6a2cab3a.css.map": "/EllieMathProblem/static/css/main.6a2cab3a.css.map",
+    "main.b19390c9.js.map": "/EllieMathProblem/static/js/main.b19390c9.js.map",
     "787.fa3fb03d.chunk.js.map": "/EllieMathProblem/static/js/787.fa3fb03d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.04e30033.js"
+    "static/css/main.6a2cab3a.css",
+    "static/js/main.b19390c9.js"
   ]
 }
