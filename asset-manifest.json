@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/EllieMathGenerator/static/css/main.073c9b0a.css",
+    "main.js": "/EllieMathGenerator/static/js/main.daacbfb6.js",
+    "static/js/787.fa3fb03d.chunk.js": "/EllieMathGenerator/static/js/787.fa3fb03d.chunk.js",
+    "index.html": "/EllieMathGenerator/index.html",
+    "main.073c9b0a.css.map": "/EllieMathGenerator/static/css/main.073c9b0a.css.map",
+    "main.daacbfb6.js.map": "/EllieMathGenerator/static/js/main.daacbfb6.js.map",
+    "787.fa3fb03d.chunk.js.map": "/EllieMathGenerator/static/js/787.fa3fb03d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.daacbfb6.js"
+  ]
+}
