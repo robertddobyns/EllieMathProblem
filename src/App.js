@@ -1,6 +1,6 @@
 import './App.css';
-import React, {useState} from 'react';
-import {Button, TextField} from '@mui/material';
+import React, {useState, useEffect} from 'react';
+import {Button, TextField, Typography} from '@mui/material';
 
 
 function App() {
@@ -25,6 +25,10 @@ function App() {
         }
     }
 
+    useEffect(() => {
+        generateProblems();
+    }, []);
+
     const generateProblems = () => {
         const num1 = generateNumber();
         const num2 = generateNumber();
@@ -39,15 +43,37 @@ function App() {
         setAnswer('');
     }
 
+    const bodyStyle = {
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignContent: 'center',
+        height: '90vh'
+    }
+    const mathStyle = {
+        width: '100px',
+        margin: '0 auto',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'end',
+        textAlign: 'right'
+    }
+
   return (
     <div className="App">
-        <Button variant={'contained'} onClick={generateProblems} sx={{marginRight: '10px'}}>Generate Problem</Button>
-        {field1 && <Button variant={'contained'} onClick={handleShowAnswer}>Show Answer</Button>}
-
-        <p> {field1}</p>
-        <p>{add === 1 ? '+' : '-'} {field2}</p>
-        <p>---------------</p>
-        {answer && <p>{answer}</p>}
+        <Typography variant={'h3'} sx={{marginBottom: '30px' }}>Awesome Math Generator</Typography>
+        <div style={bodyStyle}>
+            <div style={{marginBottom: '30px'}}>
+                <Button variant={'contained'} onClick={generateProblems} sx={{marginRight: '10px'}}>Generate Problem</Button>
+                {field1 && <Button variant={'contained'} onClick={handleShowAnswer}>Show Answer</Button>}
+            </div>
+            <div style={mathStyle}>
+                <Typography variant={'h5'}> {field1}</Typography>
+                <Typography variant={'h5'}>{add === 1 ? '+' : '-'} {field2}</Typography>
+                <Typography variant={'h5'}>------------</Typography>
+                {answer && <Typography variant={'h5'}>{answer}</Typography>}
+            </div>
+        </div>
     </div>
   );
 }
